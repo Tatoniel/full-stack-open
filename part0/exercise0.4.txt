@@ -1,0 +1,15 @@
+Traditional Page
+
+Browser -> Server: HTTP POST to URL "./new_note" 
+Server -> Browser: text/HTML to "notes" and redirecting to URL "./notes"
+
+Browser -> Server: HTTP GET to URL "./notes"
+Server -> Browser: HTML - code
+Browser -> Server: HTTP GET to URL "./main.css"
+Server -> Browser: CSS - text/css 
+Browser -> Server: HTTP GET to "./main.js"
+Server -> Browser: JS - application/javascript
+
+Browser -> Server: (Execute javascript code) HTTP GET to URL "./data.json"
+Server -> Browser: JSON application/json
+Browser -> Execute event handdler "DOM-API" that render notes

@@ -1,0 +1,13 @@
+Single page app
+
+Browser -> Server: HTTP GET to URL "./spa" 
+Server -> Browser: text/HTML
+Browser -> Server: HTTP GET to URL "./main.css"
+Server -> Browser: CSS - text/css 
+Browser -> Server: HTTP GET to "./spa.js"
+Server -> Browser: JS - application/javascript
+
+Browser-> Server: Execute JS HTTP GET to URL "./data.json"
+Server -> Browser: JSON application/json
+Browser -> Server: HTTP GET to URL "../favicon.ico"
+Server -> Browser: text/HTML

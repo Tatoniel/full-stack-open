@@ -1,0 +1,7 @@
+Single page app note push
+
+Browser -> HTTP POST to URL ".new_note_spa" 
+Browser -> JS :Handdle the submit form to prevent default
+Browser -> JS: Server: Send application/json "note" to server
+Server -> Browser: JS - application/json (new note included)
+Browser -> Render the notes
